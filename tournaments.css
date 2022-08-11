@@ -1,0 +1,53 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge add Firefox */
+    .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+    }
+    h1 {
+    background-color: #525661;
+    color: white;
+    font-family: Teko;
+    font-size: 60px;
+    font-weight: bold;
+    height: 20px;
+    }
+    p {
+    background-color: #525661;
+    color: white;
+    font-family: Teko;
+    font-size: 20px;
+    height: 15px;
+    }
+    .Teamz {
+    display: flex;
+    flex-flow: row nowrap;
+    }
+    p.Teamz {
+    width: 15px;
+    background-color: #525661;
+    color: white;
+    font-family: Teko;
+    font-size: 20px;
+    height: 15px;
+    }
+    #blanks {
+      width: 50px;
+    }
+    #image {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin: 20px 30px 0 0;
+    }
+    #text {
+    display: inline-block;
+    width: 46%;
+    }
+    a {
+    text-decoration: none;
+    }
